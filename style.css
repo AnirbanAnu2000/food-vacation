@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.brand-color {
+    color: #fd8344;
+}
+
+body {
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Courgette', cursive;
+    font-weight: 700;
+    color: #575757;
+}
+
+.flex-part {
+    display: flex;
+}
+
+.link-btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, #fd8344, #fe4f30);
+}
+
+
+/* common css end */
+
+
+/* banner part start */
+
+#banner-part {
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+#banner-part .banner-left {
+    width: 50%;
+    padding-top: 7%;
+    padding-left: 5%;
+}
+
+#banner-part .banner-left h1 {
+    font-size: 70px;
+}
+
+#banner-part .banner-left p {
+    font-size: 22px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding-right: 25%;
+    color: #828282;
+}
+
+#banner-part .banner-right {
+    width: 50%;
+    justify-content: center;
+}
+
+#banner-part .banner-right img {
+    width: 95%;
+}
+
+
+/* banner part end */
+
+
+/* about part start */
+
+#about-part {
+    background-image: url(images/about-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+#about-part .about-left {
+    width: 50%;
+    justify-content: center;
+}
+
+#about-part .about-left img {
+    width: 50%;
+}
+
+#about-part .about-right {
+    width: 50%;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: left;
+    padding-left: 5%;
+}
+
+#about-part .about-right h3 {
+    font-size: 35px;
+}
+
+#about-part .about-right p {
+    font-size: 22px;
+    color: #828282;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    padding-right: 35%;
+}
+
+
+/* about part end */
+
+
+/* recipie part start */
+
+#recipie-part {
+    padding-bottom: 60px;
+}
+
+#recipie-part .recipie-part-top {
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+#recipie-part .recipie-part-top h3 {
+    font-size: 35px;
+}
+
+#recipie-part .recipie-part-top p {
+    font-size: 22px;
+    color: #828282;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#recipie-part .recipie-card-items {
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#recipie-part .recipie-card-items .recipie-card {
+    margin: 2%;
+    padding: 20px;
+    width: 23%;
+    box-shadow: 0px 0px 7px 10px #bbb;
+    border-radius: 10px;
+}
+
+#recipie-part .recipie-card-items .recipie-card img {
+    width: 100%;
+    height: 55%;
+    border-radius: 10px;
+}
+
+#recipie-part .recipie-card-items .recipie-card h4 {
+    font-size: 26px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+#recipie-part .recipie-card-items .recipie-card p {
+    font-size: 20px;
+    color: #828282;
+}
+
+
+/* recipie part end */
+
+
+/* service part start */
+
+#service-part {
+    padding-bottom: 60px;
+}
+
+#service-part h3 {
+    font-size: 35px;
+    text-align: center;
+}
+
+#service-part .services {
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#service-part .services .service-option {
+    width: 20%;
+    background-image: linear-gradient(to top, #e9654e, #eca07a);
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px #ccc;
+}
+
+#service-part .services .service-option h4 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+#service-part .services .service-option p {
+    font-size: 20px;
+    color: #111;
+    margin-top: 20px;
+}
+
+#service-part .services .service-option img {
+    width: 80%;
+}
+
+
+/* service part end */
+
+
+/* reservation part start */
+
+#reservation {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background-image: linear-gradient(to top, #e28a5e, #fe4f30);
+}
+
+#reservation h3 {
+    font-size: 35px;
+    text-align: center;
+    color: #111;
+}
+
+#reservation p {
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    color: #111;
+}
+
+#reservation .reservation-form {
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+#reservation .reservation-form input {
+    flex-basis: 23%;
+    margin: 2%;
+    height: 40px;
+    width: 100%;
+    padding: 4px;
+    display: inline-block;
+    border: 1px solid #aa9ec5;
+    border-radius: 5px;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 20px;
+}
+
+#reservation .reservation-form textarea {
+    flex-basis: 78%;
+    height: 100px;
+    padding: 5px;
+    display: inline-block;
+    border: 1px solid #aa9ec5;
+    border-radius: 5px;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 20px;
+}
+
+
+/* reservation part end */
+
+
+/* footer top part start */
+
+#footer-top-part {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#footer-top-part .footer-top-part-inner {
+    flex-flow: row wrap;
+    justify-content: center;
+    border-radius: 20px;
+    width: 80%;
+    box-shadow: 0px 0px 5px 10px #ddd;
+    margin: 0 auto;
+}
+
+#footer-top-part .footer-top-part-inner .footer-top-part-content {
+    max-width: 23%;
+    margin: 2%;
+    padding: 50px;
+}
+
+#footer-top-part .footer-top-part-inner .footer-top-part-content h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #111;
+}
+
+#footer-top-part .footer-top-part-inner .footer-top-part-content p {
+    font-size: 22px;
+    color: #111;
+}
+
+
+/* footer top part end */
+
+
+/* footer part start */
+
+#footer-part {
+    background-color: #0b0e17;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+#footer-part h4 {
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+#footer-part p {
+    color: #eee;
+    font-size: 20px;
+}
+
+
+/* footer part end */
+
+
+/* order page css start */
+
+#order-page {
+    text-align: center;
+}
+
+#order-page h1 {
+    font-size: 100px;
+}
+
+
+/* order page css end */
